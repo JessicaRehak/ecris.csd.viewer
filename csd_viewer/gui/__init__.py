@@ -1,13 +1,6 @@
-from .controls import (
-    PlotControls,
-    FileListControls,
-    FileList,
-    ElementButtons,
-    FittingControls,
-    Tools,
+from .panels import (
+    StatusPanel, FileListPanel, PlotControlPanel, 
+    FittingPanel, ToolsPanel, ElementPanel
 )
-from .plot import Plot
-from .menu import AppMenu
-from .diagnostic_window import DiagnosticWindow
-from .info_frame.file_info_pane import FileInfoPane
-from .windows import FileComparisonWindow
+from .canvas import MqPlotCanvas
+from .main_window import MainWindow

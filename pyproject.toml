@@ -18,7 +18,8 @@ dependencies = [
     "ttkbootstrap (>=1.20.0,<2.0.0)",
     "ops-ecris-analysis @ git+https://github.com/lbnl-88ops/ecris.analysis.git@v1.4.1",
     "ops-ecris @ git+https://github.com/lbnl-88ops/ecris.git@v0.2.0",
-    "requests (>=2.32.5,<3.0.0)"
+    "requests (>=2.32.5,<3.0.0)",
+    "pyside6 (>=6.11.0,<7.0.0)"
 ]
 
 
